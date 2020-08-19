@@ -1,0 +1,131 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+h1
+{
+    font-size:20px; /*tamaño de fuente*/
+    font-family:sans-serif ; /*tipo de fuente*/
+    font-weight: bold; /*Cambiar grososr de las fuentes*/
+    margin-bottom: 15px;
+}
+
+h2
+{
+    font: bold 14px sans-serif; /*todo en una sola linea*/ 
+    margin-bottom: 20px;
+   
+}
+
+header, section, footer, aside, nav,article,hgroup /*selecciona varias etiquetas para mostrar como estan en blqoues*/
+{
+    display: block; /*vista en bloques*/
+}
+
+body
+{
+    background: #c4e2e2;
+}
+
+
+.agrupar /*estilo a clases, div con un clase agrupar*/ 
+{
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;/*margen en y y en x*/
+    background: white;
+    /*padding: 100px; /*margenes o espaciado del contenido interno*/
+    /*margin:auto;/*margenes automatico*/
+   
+}
+
+.cabecera
+{
+    background:#fffbb9;
+    border: solid #999999;
+    padding: 20px;
+}
+
+.cabecera h1
+{
+    text-align: left;
+}
+
+.menu
+{
+background: #ccc;
+padding:  5px 15px;
+text-align: left;
+}
+
+.menu li /*todos elementos li que esten en un elemento que tenga la clase menu*/
+{
+    list-style: none;/*quitar estilo de las listas*/
+    padding: 5px;/*espaciados*/
+    font: bold 14px verdana;   
+    display: inline-block; /*bloques alienas al lado  del otro*/
+}
+
+article
+{
+    background: #fffbcc;
+    border: 1px solid #999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article p
+{
+text-align: left;
+margin-top: 15px;
+}
+
+time
+{
+    color: #999;
+}
+
+article footer
+{
+    text-align: right;
+    margin-top: 20px;
+}
+
+.seccion
+{
+    margin: 20px;
+    width: 60%;    
+    float: left;   
+}
+
+.columna
+{
+    width: 30%;
+    float: left;/*flotan los elementos para ubicarlos como se requiera ya que son bloques*/
+    margin: 20px 0;
+} 
+
+.columna blockquote
+{
+    border: 1px solid #999;
+    padding: 40px;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+.pie
+{
+    clear: both;/*vuelve a la normalidad los elementos cuando se aplica el float los elmentos quedan encima de todo, se hace en el pie por q es el elmento que finaliza*/
+    padding: 20px;
+    background: #2d3436;
+    color: #ffffff;
+    text-align: center;
+}
+
+img
+{
+width: 80PX;
+display: block;/*elemento en bloque para que no quede el elemento en linea es decir al lado del otro*/
+margin: 20px auto;
+}

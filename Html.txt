@@ -1,0 +1,18 @@
+HTML
+-Consultar como funciona la web 
+-como funciona un navegador
+-como funciona internet
+Lenguaje de etiquetas de hypertexto "referencia otras paginas"
+es una tecnologia de paginas web, estandar con W3C determina las reglas
+Se relaciona con CSS y javascript
+Atributo de las etiquetas html ejemplo: lang es un atribuo del tipo de lenguaje
+<html lang="es"></html>
+
+CSS
+Dar reglas al navegador como tiene que pintar nuestro sitio web
+Selectores:
+id= identificador o nombre clave al elemento para un solo elemento
+clase =  para identificar multiples elemntos
+
+min 1:26:24
+

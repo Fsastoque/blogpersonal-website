@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--lang atributo de html-->
+
+<head>
+    <meta charset="utf-8" />
+    <!--codifcacion de caracteres-->
+    <title>Primer Pagina Web</title>
+    <meta name="description" content="Esta es mi pagina web" />
+    <!--no lleva contenido, se utilizan los atributos, describir que contiene la pagina-->
+    <meta name="author" content="Fsastoque" />
+    <!--meta sirve para dar informacion de la pagina-->
+    <meta name="keywords" content="Mi primer titulo,html,mi primer pagina" />
+    <!--Palabras claves para que enceuntren mas rapido la pagina-->
+    <link rel="stylesheet" href="estilos.css">
+    <!--etiqueta stykle Reglas de ccs para toda la pagina-->
+    <!-- <style>
+            /*header{  /* aplicar por elemento
+                background: black;
+                color: white;
+            }*/
+            #cabecera /* aplicar por id que son elementos unicos*/
+            {
+                background: red;
+                color:white;
+            }
+            #cabecerados{
+                background: green;
+                color: white;
+            }
+            footer{
+                background: green;
+            }
+            .green /*aplicar por una clase*/
+            {
+                background:indigo;
+            }
+            /** aplicar por selector universal
+            {
+                background:brown;
+            }*/
+
+            blockquote[cite] /*elementos por atributos*/
+           {
+                background: red;
+           } 
+        </style>-->
+</head>
+
+<body>
+    <div class="agrupar">
+        <!--Divisiones-->
+        <header class="cabecera">
+            <!--CSS fondo color rojo-->
+            <h1>Mi Blog</h1>
+        </header>
+        <nav class="menu">
+            <!--Menu-->
+            <ul>
+                <!--lista desordenada-->
+                <li>Principal</li>
+                <li>ayuda</li>
+                <li>contacto</li>
+            </ul>
+        </nav>
+        <section class="seccion">
+            <!--Contenido de la pagina-->
+            <article>
+                <hgroup>
+                    <!--Agrupar Agrupar encabezados englobar-->
+                    <h1>Titulo del Primer Ariculo</h1>
+                    <!--Lorem30 para mostrar texto de prueba-->
+                    <h2>Subtitulo de Primer Articulo</h2>
+                </hgroup>
+                <time datetime="16-04-2020">Publicado 16-04-2020</time>
+                <img src="imagenes\Captura2.PNG" />
+                <p class="green">Lorem ipsum, <small>dolor sit amet consectetur adipisicing elit</small>
+                    <!--TExto mas pequeño-->.
+                    Fuga provident, numquam molestias
+                    optio temporibus ipsum <cite>voluptatibus ducimus nesciunt</cite>
+                    <!--Cita--> autem! Necessitatibus error, tempore
+                    eius enim consequuntur sed laborum <span>facere commodi</span> ducimus.</p>               
+                <footer>
+                    <p>Comentarios (0)</p>
+                </footer>
+                <address>
+                    <!--indica que es una pagina web-->
+                    <a href="http://google.com">Visita Google</a>
+                </address>
+            </article>
+            <article >
+                <hgroup>
+                    <h1>Titulo del Segundo Articulo</h1>
+                    <h2>Subtitulo de Segundo Articulo</h2>
+                </hgroup>
+                <time datetime="16-04-2020">Publicado 16-04-2020</time>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, quisquam. Non a sequi excepturi
+                    alias rem, placeat maiores iste tenetur nam numquam suscipit? Ut sapiente, error temporibus
+                    architecto doloremque facilis!</p>
+                <footer>
+                    <p>Comentarios (10)</p>
+                </footer>
+            </article>
+        </section>
+        <aside class="columna">
+            <!--Informacion relacionada con el contenido principal-->
+            <blockquote cite="http://faztweb.com">
+                <!--Escribir citas de un libro o sitio  web-->                
+                Mensaje 1, Cita
+            </blockquote>
+            <blockquote cite="http://facebook.com">
+                Mensaje 2, Cita
+            </blockquote>
+        </aside>
+        <footer class="pie">
+            <!--Pie de pagina-->
+            Derechos Reservados 2018-2020
+        </footer>
+    </div>
+</body>
+
+</html>
